@@ -4,6 +4,11 @@ body {
   overflow: hidden;
 }
 
+#pencil {
+  position: absolute;
+  visibility: hidden;
+}
+
 #canvas,
 #canvas2 {
   position: absolute;

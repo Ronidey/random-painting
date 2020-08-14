@@ -27,8 +27,7 @@ c.height = innerHeight;
 c2.width = innerWidth;
 c2.height = innerHeight;
 
-const pencilImg = new Image();
-pencilImg.src = './assets/pencil.png';
+const pencilImg = document.getElementById('pencil');
 
 const minmax = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
