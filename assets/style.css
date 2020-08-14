@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#canvas,
+#canvas2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.music-btn {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  opacity: 0.8;
+  fill: #bd13a7;
+  cursor: pointer;
+}
+
+.music-btn .unmute {
+  display: none;
+}
+
+.music-btn .mute {
+  display: inline-block;
+}
+
+.music-btn.is-active .unmute {
+  display: inline-block;
+}
+
+.music-btn.is-active .mute {
+  display: none;
+}
